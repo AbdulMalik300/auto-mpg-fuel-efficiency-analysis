@@ -34,18 +34,24 @@ Python | Pandas | NumPy | Matplotlib | Google Colab
 | Maximum MPG | 46.6 |
 
 ## Visualizations
-| Graph | Insight |
-|---|---|
-| `mpg_vs_weight.png` | Relationship between car weight and fuel efficiency |
-| `mpg_vs_horsepower.png` | Relationship between engine power and fuel efficiency |
-| `mpg_distribution.png` | Overall distribution of MPG across all cars |
-| `mpg_by_year.png` | Average fuel efficiency trend across model years |
+
+![Weight vs MPG](mpg_vs_weight.png)
+*Weight vs MPG — shows how car weight relates to fuel efficiency*
+
+![Horsepower vs MPG](mpg_vs_horsepower.png)
+*Horsepower vs MPG — shows how engine power relates to fuel efficiency*
+
+![MPG Distribution](mpg_distribution.png)
+*Distribution of MPG values across all cars in the dataset*
+
+![Average MPG by Year](mpg_by_year.png)
+*Average fuel efficiency trend across model years*
 
 ## Findings
-1. Heavier cars tend to have lower fuel efficiency, showing a clear negative relationship between weight and MPG.
+1. Heavier cars tend to have lower fuel efficiency, showing a negative relationship between weight and MPG.
 2. Cars with higher horsepower generally achieve lower MPG, since more powerful engines tend to consume more fuel.
 3. The average fuel efficiency across the dataset is **23.51 MPG**, with a wide range from as low as **9.0** to as high as **46.6**.
-4. Fuel efficiency shows an improving trend across model years, suggesting newer cars were engineered to be more fuel-efficient.
+4. Fuel efficiency shows a trend across model years, suggesting changes in engineering and fuel efficiency standards over time.
 5. Only about **21.36%** of cars in the dataset achieve an MPG greater than 30, indicating that highly fuel-efficient cars are relatively uncommon in this dataset.
 
 ## Probability Result
