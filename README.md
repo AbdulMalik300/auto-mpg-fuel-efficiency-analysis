@@ -1,7 +1,7 @@
 # Auto MPG - Fuel Efficiency Analysis
 
 ## Description
-This project analyzes the Auto MPG dataset to understand which factors — such as weight, horsepower, and model year — affect a car's fuel efficiency (MPG). Working from a Junior Data Analyst scenario for an automobile company, the goal was to clean the dataset, explore relationships through visualizations, and draw simple, data-backed conclusions.
+This project analyzes the Auto MPG dataset to understand which factors such as weight, horsepower, and model year affect a car's fuel efficiency (MPG). Working from a Junior Data Analyst scenario for an automobile company, the goal was to clean the dataset, explore relationships through visualizations, and draw simple, data-backed conclusions.
 
 ## Dataset
 Source: [Auto MPG Dataset](https://raw.githubusercontent.com/plotly/datasets/master/auto-mpg.csv)
@@ -36,15 +36,19 @@ Python | Pandas | NumPy | Matplotlib | Google Colab
 ## Visualizations
 
 ![Weight vs MPG](mpg_vs_weight.png)
+
 *Weight vs MPG — shows how car weight relates to fuel efficiency*
 
 ![Horsepower vs MPG](mpg_vs_horsepower.png)
+
 *Horsepower vs MPG — shows how engine power relates to fuel efficiency*
 
 ![MPG Distribution](mpg_distribution.png)
+
 *Distribution of MPG values across all cars in the dataset*
 
 ![Average MPG by Year](mpg_by_year.png)
+
 *Average fuel efficiency trend across model years*
 
 ## Findings
